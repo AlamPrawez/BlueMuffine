@@ -1,3 +1,23 @@
+
+# do step by step
+1.composer dump-authload
+2.create database
+3.update .env file with your database name nad password. 
+3.php artisan migrate.
+4.npm run dev
+5.First your create a user by removing middleware.
+6.After one user is created then again apply middleware.
+7.so on...
+
+
+
+
+
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
